@@ -1,6 +1,6 @@
 Forked from https://github.com/SynHub/syn-bot-samples/tree/master/oscova-console-bot
 
-#Oscova chatbot
+# Oscova chatbot
 There is a possibility to use some internal Oscova platform techniques that can help to enable better semantic analysis of tokens in user input.
  
 - [Loading WordNet Database](https://developer.syn.co.in/tutorial/bot/oscova/load-wordnet.html)
@@ -18,58 +18,106 @@ To compile:
 - Run install-package Syn.Bot
 It will take several seconds for the app to run.
  
-### 0 default mode
+### default mode
+
 hello
+
 Hello Bot developer!
+
 hey
+
 Please specify an App name.
+
 hi
+
 Please specify an App name.
+
 bot
+
 Hello Bot developer!
+
 robot
+
 Please specify an App name.
+
 how are you
--
+
+(no answer)
 
 ### 1 with WordNet (understands “hi”)
+
 hello
+
 Hello Bot developer!
+
 hey
+
 Please specify an App name.
+
 hi
+
 Hello Bot developer!
+
 bot
+
 Hello Bot developer!
+
 robot
+
 Please specify an App name.
+
 how are you
+
 (no answer)
 
 ### 2.1 with word2vec (glove.6B.50d.txt - understands “robot”)
+
 hello
+
 Hello Bot developer!
+
 hey
+
 Please specify an App name.
+
 hi
+
 Please specify an App name.
+
 bot
+
 Hello Bot developer!
+
 robot
+
 Hello Bot developer!
+
 how are you
+
 (no answer)
 
 ### 2.2 with word2vec (wiki.en.vec - shows worse results in my test than 2.1)
+
 hello
+
 Hello Bot developer!
+
 hey
+
 Please specify an App name.
+
 hi
+
 Please specify an App name.
+
 bot
+
 Hello Bot developer!
+
 robot
+
 Please specify an App name.
+
 how are you
+
 (no answer)
