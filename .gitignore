@@ -9,3 +9,4 @@ oscova-console-bot/packages/
 oscova-excel-bot/packages/
 oscova-excel-bot/OscovaExcelBot/obj
 oscova-excel-bot/*.pdf
+bin/
